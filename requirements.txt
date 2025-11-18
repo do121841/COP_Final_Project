@@ -1,0 +1,22 @@
+# Generated requirements for the project based on used imports in the notebooks
+# Adjust versions if you need stricter reproducibility.
+
+pandas>=1.5.0
+numpy>=1.24.0
+scikit-learn>=1.2.0
+matplotlib>=3.6.0
+seaborn>=0.12.0
+xgboost>=1.7.0
+optuna>=3.0.0
+joblib>=1.2.0
+pyarrow>=8.0.0
+scipy>=1.10.0
+
+# Optional / development
+jupyterlab
+
+# Notes:
+# - `pyarrow` is required for reading/writing parquet with pandas. If you prefer fastparquet,
+#   replace or add `fastparquet` instead.
+# - If you run into API differences for xgboost (early stopping callbacks vs fit kwarg),
+#   either update xgboost or adapt the training code to use the callback API.
