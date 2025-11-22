@@ -42,3 +42,8 @@ To run click each cell
 ## Notes
 - For the data visualization the data is located at: "/data/processed/cleaned_imputed_anime.csv"
 - For model training the training/testing splits are located at: "/data/splits"
+
+
+
+## Final Submission
+- Final Notebook containing all the steps for data-cleaning and visualization, make it into classes for better readability
